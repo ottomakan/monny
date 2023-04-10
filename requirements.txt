@@ -1,0 +1,5 @@
+## PIP modules to install
+python-telegram-bot==13.5
+telegram-send
+psutil
+requests
