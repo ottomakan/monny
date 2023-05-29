@@ -15,11 +15,17 @@ def send_tg_msg(msg):
 fs_list = ['/data','/home','/']
 fs_free_threshold_pct = 90
 
+my_node_url = 'http://localhost:8545'
+
 ## POLYGON Configs
 polyscan_api_key = 'Y73EWHN3MMXRWV9896VPIN6VV9RGKSJ2XY'
-my_node_url = 'http://localhost:8545'
 polyscan_url = 'https://api.polygonscan.com/api?module=proxy&action=eth_blockNumber'
-alert_theshold_blocks = 5
+alert_theshold_blocks = 10
+
+## Erigin/Ethereum Configs
+etherscan_api_key = 'R3J4QRQBXSPPWCGQC32UG4MQ7IEH46CDDR'
+etherscan_url = 'https://api.etherscan.io/api?module=proxy&action=eth_blockNumber'
+
 
 ## Other configs
 local_path = "/home/poktadmin/.local/bin"

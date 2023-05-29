@@ -10,7 +10,7 @@ export PATH=/home/poktadmin/.local/bin:$PATH
 /home/poktadmin/monny/serv_mon.py
 
 ## Check sync status of Polygon node
-/home/poktadmin/monny/matic_mon.py
+/home/poktadmin/monny/eth_mon.py
 
 ## Deactivate Python venv (activated by monny_pre.sh)
 deactivate
