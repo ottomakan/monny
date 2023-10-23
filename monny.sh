@@ -10,8 +10,10 @@ export PATH=/home/poktadmin/.local/bin:$PATH
 /home/poktadmin/monny/serv_mon.py
 
 ## Check sync status of Polygon node
-/home/poktadmin/monny/eth_mon.py
+/home/poktadmin/monny/bsc_mon.py
 
+## Check sync status of geth and scroll node
+/home/poktadmin/monny/eth_mon2.py
 ## Deactivate Python venv (activated by monny_pre.sh)
 deactivate
 echo "Finished monny.sh"
